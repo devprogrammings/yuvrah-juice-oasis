@@ -7,7 +7,7 @@ import { Badge } from '@/components/ui/badge';
 
 export interface OrderDetailsDrawerProps {
   order: Order;
-  open: boolean; // Add the missing 'open' property
+  open: boolean;
   onClose: () => void;
 }
 
